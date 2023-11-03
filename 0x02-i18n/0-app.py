@@ -10,7 +10,7 @@ app.url_map.strict_slashes = False
 
 
 @app.route('/')
-def hello() -> str:
+def get_index() -> str:
     """"
     Outputs Welcome to Holberton
     """
